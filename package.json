@@ -2,12 +2,15 @@
   "name": "cogen",
   "version": "0.1.0",
   "description": "Simple and opinonated React Native components generator",
-  "main": "lib/index.js",
+  "main": "bin/index.js",
   "repository": "https://github.com/tomslutsky/cogen.git",
   "author": "Tom Slutsky <tom.slutsky@gmail.com>",
   "license": "MIT",
   "private": false,
   "dependencies": {
     "commander": "^5.1.0"
+  },
+  "bin": {
+    "cogen": "./lib/index.js"
   }
 }
